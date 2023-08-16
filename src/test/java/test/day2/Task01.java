@@ -1,4 +1,4 @@
-package test;
+package test.day2;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
@@ -32,6 +32,7 @@ public class Task01 {
         //capabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\HUAWEI\\IdeaProjects\\Appium_Team116\\apps\\Apk Bilgisi_2.3.4_apkcombo.com.apk");
         capabilities.setCapability("appPackage","com.dogan.arabam");
         capabilities.setCapability("appActivity","com.dogan.arabam.presentation.feature.home.HomeActivity");
+        capabilities.setCapability(MobileCapabilityType.NO_RESET,false);
 
 
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
