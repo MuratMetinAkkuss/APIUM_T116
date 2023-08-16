@@ -1,3 +1,5 @@
+package test;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -17,7 +19,7 @@ public class denemetest {
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"10.0");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
-        capabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\HUAWEI\\IdeaProjects\\Appium_Team116\\apps\\Apk Bilgisi_2.3.4_apkcombo.com.apk");
+        capabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\HUAWEI\\IdeaProjects\\Appium_Team116\\apps\\arabam.com_4.8.0_Apkpure.apk");
 
 
             driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
