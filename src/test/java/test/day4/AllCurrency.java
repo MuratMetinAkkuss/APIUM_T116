@@ -1,8 +1,10 @@
 package test.day4;
 
+
 import org.testng.annotations.Test;
 
 public class AllCurrency {
+
     @Test
     public void test01(){
         // all currency uygulamasinin yuklendigi dogulanir
