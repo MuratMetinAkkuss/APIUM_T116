@@ -38,7 +38,7 @@ public class KiwiPage {
 
 
 
-    public void ilkSayfaGecisleri() throws InterruptedException {
+    public void ilkSayfaGecisleri() {
         for (int i=0; i<3; i++){
             Reusablemethods.clickCoordinate(538,1689,2000);
         }
